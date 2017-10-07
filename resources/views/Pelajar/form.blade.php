@@ -1,0 +1,3 @@
+	<tr><td>NIS</td><td>{!! Form::text('NIS',null,['class'=>'form-control']) !!}</td></tr>
+	<tr><td>Nama Lengkap</td><td>{!! Form::text('nama_lengkap',null,['class'=>'form-control']) !!}</td></tr>
+	<tr><td>Kelas</td><td>{!! Form::select('kelas',array('7_1'=>'7_1','7_2'=>'7_2','7_3'=>'7_3','7_4'=>'7_4','7_5'=>'7_5','8_1'=>'8_1','8_2'=>'8_2','8_3'=>'8_3','8_4'=>'8_4','8_5'=>'8_5','9_1'=>'9_1','9_2'=>'9_2','9_3'=>'9_3','9_4'=>'9_4','9_5'=>'9_5'),null,['class'=>'form-control']) !!}</td></tr>

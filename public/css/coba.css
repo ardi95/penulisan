@@ -1,0 +1,23 @@
+.button-coba {
+background:    #6e0303;
+background:    -webkit-linear-gradient(#f31717, #6e0303 50%, #f31717);
+background:    linear-gradient(#f31717, #6e0303 50%, #f31717);
+border-radius: 999px;
+color:         #fff;
+display:       inline-block;
+padding:       8px 20px;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px 0 #000;
+}
+/*.button-coba:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1fcdf0), color-stop(1, #5913f0) );
+	background:-moz-linear-gradient( center top, #1fcdf0 5%, #5913f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1fcdf0', endColorstr='#5913f0');
+	background-color:#1fcdf0;
+}*/
+/*.button-coba:active {
+	position:relative;
+	top:1px;
+}*/
+/* This button was generated using CSSButtonGenerator.com */

@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateNilaisTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('nilais', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('pelajar_id');
+            $table->string('pelajaran');
+            $table->string('tipe_ujian');
+            $table->integer('nilai_ujian')->nullable;
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('nilais');
+    }
+}

@@ -1,0 +1,4 @@
+<tr><td>NIS</td><td><select name="pelajar_id" class="form-control">@foreach($pelajar as $a)<option {{ $a->id }}>{{ $a->NIS }}</option>@endforeach</select></td>
+<tr><td>Pelajaran</td><td>{!! Form::select('pelajaran',array('Matematika'=>'Matematika','IPA'=>'IPA','IPS'=>'IPS','Bahasa Inggris'=>'Bahasa Inggris','Bahasa Indonesia'=>'Bahasa Indonesia'),'',['class'=>'form-control']) !!}</td>
+<tr><td>Tipe Ujian</td><td>{!! Form::select('tipe_ujian',array('UTS'=>'UTS','UAS'=>'UAS'),'',['class'=>'form-control']) !!}</td>
+<tr><td>Nilai</td><td>{!! Form::text('nilai_ujian',null,['class'=>'form-control']) !!}</td></tr>
